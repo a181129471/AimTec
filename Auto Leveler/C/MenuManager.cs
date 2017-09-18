@@ -13,7 +13,7 @@ namespace Auto_Leveler {
 
     class MenuManager {
 
-        private static readonly Menu Menu = new Menu("autoLeveler", "Auto Leveler", true);
+        private static readonly Menu Menu = new Menu("autoLeveler", "AutoLevelUp", true);
 
         private static string _championName;
 
@@ -28,10 +28,10 @@ namespace Auto_Leveler {
 
             Menu autoLevelerMenu = new Menu(_championName, _championName) {
                 new Menu("levels", "Levels") {
-                    new MenuSlider("q", "Q", 1, 1, 4),
-                    new MenuSlider("w", "W", 2, 1, 4),
-                    new MenuSlider("e", "E", 3, 1, 4),
-                    new MenuSlider("r", "R", 4, 1, 4)
+                    new MenuSlider("q", "Q", 2, 1, 4),
+                    new MenuSlider("w", "W", 3, 1, 4),
+                    new MenuSlider("e", "E", 4, 1, 4),
+                    new MenuSlider("r", "R", 1, 1, 4)
                 },
                 new Menu("levelAt", "Level at") {
                     new MenuSlider("q", "Q", 2, 2, 18),

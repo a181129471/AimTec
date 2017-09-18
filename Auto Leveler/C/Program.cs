@@ -17,7 +17,6 @@ namespace Auto_Leveler {
         private static readonly int BaseY = (int) (Render.Height - Render.Height / 4);
         private static readonly int BaseX = (int) (Render.Width / 2.0);
 
-        private static readonly string InvalidSpellConfigurationText = "Invalid spell priority configuration";
 
         private static readonly Random Random = new Random();
 
